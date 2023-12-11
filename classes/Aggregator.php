@@ -58,7 +58,7 @@ class Aggregator implements AdvertiserInterface
             }
         }
 
-         return array_values($uniqueRooms);
+          return array_values($uniqueRooms);
     }
 }
 

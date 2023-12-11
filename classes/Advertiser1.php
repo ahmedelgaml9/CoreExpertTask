@@ -8,9 +8,9 @@ class Advertiser1 implements AdvertiserInterface
     public function getHotelRooms(): array
     {
 
-        $baseDirectory ='http://localhost/Projectdemo';
+        $baseUrl = realpath(__DIR__ . '/../');
 
-        $jsonFilePath = $baseDirectory . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'advertiser2.json';
+        $jsonFilePath = $baseUrl . '/public/hotel1.json';
 
         return json_decode(file_get_contents($jsonFilePath),true);
         
