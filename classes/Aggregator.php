@@ -28,7 +28,7 @@ class Aggregator implements AdvertiserInterface
 
         usort($uniqueRooms, function ($a, $b) {
             
-            return $a->total - $b->total;
+             return $a->total - $b->total;
         });
 
          return $uniqueRooms;

@@ -10,7 +10,7 @@ class Advertiser1 implements AdvertiserInterface
 
         $baseDirectory ='http://localhost/Projectdemo';
 
-        $jsonFilePath = $baseDirectory . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'advertiser1.json';
+        $jsonFilePath = $baseDirectory . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'advertiser2.json';
 
         return json_decode(file_get_contents($jsonFilePath),true);
         

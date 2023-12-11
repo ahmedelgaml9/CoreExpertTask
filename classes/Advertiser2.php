@@ -12,8 +12,8 @@ class Advertiser2 implements AdvertiserInterface
 
         $jsonFilePath = $baseDirectory . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'advertiser2.json';
 
-        return json_decode(file_get_contents($jsonFilePath),true);    
-
+        return json_decode(file_get_contents($jsonFilePath),true);        
+        
     }
 
 }
